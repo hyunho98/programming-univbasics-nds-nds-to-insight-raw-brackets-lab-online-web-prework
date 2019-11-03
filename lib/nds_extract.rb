@@ -23,6 +23,7 @@ def directors_totals(nds)
     end
 
     result[keyname] = gross
+    count1 += 1
 
   end
   #
