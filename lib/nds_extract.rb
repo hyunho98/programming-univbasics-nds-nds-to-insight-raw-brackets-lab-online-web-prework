@@ -8,6 +8,7 @@ def directors_totals(nds)
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   result = {
+    pp nds
   }
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
@@ -18,5 +19,4 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  nil
 end
