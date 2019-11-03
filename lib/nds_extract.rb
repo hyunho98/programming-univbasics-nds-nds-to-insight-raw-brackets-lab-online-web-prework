@@ -21,6 +21,8 @@ def directors_totals(nds)
       gross += nds[count1][:movies][count2][:worldwide_gross]
     end
 
+    result[keyname] = gross
+
   end
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
