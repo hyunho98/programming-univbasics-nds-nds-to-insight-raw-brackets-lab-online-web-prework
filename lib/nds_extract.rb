@@ -19,6 +19,7 @@ def directors_totals(nds)
 
     while count2 < nds[count1][:movies].length do
       gross += nds[count1][:movies][count2][:worldwide_gross]
+      count2 += 1
     end
 
     result[keyname] = gross
