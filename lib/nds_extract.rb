@@ -20,7 +20,7 @@ def directors_totals(nds)
     while count2 < nds[count1][:movies].length do
       
     end
-    
+
   end
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
